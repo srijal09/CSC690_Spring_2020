@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Appointment" representedClassName="Appointment" syncable="YES">
+        <attribute name="appointmentStatus" optional="YES" attributeType="String"/>
+        <attribute name="dateSlot" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Code" representedClassName="Code" syncable="YES">
+        <attribute name="accesCode" optional="YES" attributeType="String"/>
+        <attribute name="byTeacher" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Reason" representedClassName="Reason" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="reason" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SlotAppointment" representedClassName="SlotAppointment" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="timeSlot" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Appointment" positionX="72" positionY="36" width="128" height="118"/>
+        <element name="Code" positionX="188.875" positionY="33.4296875" width="128" height="73"/>
+        <element name="SlotAppointment" positionX="72" positionY="54" width="128" height="73"/>
+        <element name="User" positionX="-45" positionY="0" width="128" height="88"/>
+        <element name="Reason" positionX="72" positionY="54" width="128" height="73"/>
+    </elements>
+</model>
